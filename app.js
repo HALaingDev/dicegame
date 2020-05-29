@@ -10,7 +10,7 @@ GAME RULES:
 */
 var score, currentScore, active, dice, dicepic, limit;
 reset();
-// limit = window.prompt('Enter Game Winning Points!')
+limit = window.prompt('Enter Game Winning Points!')
 document.querySelector('.btn-roll').addEventListener('click', function () {
     dice = Math.floor(Math.random() * 6) + 1;
     dicepic.style.display = 'block';
