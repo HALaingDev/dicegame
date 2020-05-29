@@ -7,7 +7,7 @@ GAME RULES:
 - The player can choose to 'Hold', which means that his ROUND score gets added to his GLBAL score. After that, it's the next player's turn
 - The first player to reach 100 points on GLOBAL score wins the game
 
-*/window.prompt('Love you YMMH <3');
+*/window.alert('Love you YMMH <3');
 
 var score, currentScore, active, dice, dicepic, limit, gamestatus;
 reset();
