@@ -140,7 +140,7 @@ button:hover i{
     button{font-size: 90%;}
 }
 .winner{
-    animation: winner 0.5s infinite;
+    animation: winner 0.2s infinite;
     animation-timing-function: ease-in-out;
 }
 @keyframes winner{
