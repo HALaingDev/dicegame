@@ -17,7 +17,7 @@ document.querySelector('.btn-roll').addEventListener('click', function () {
     if (gamestatus) {
         dice = Math.floor(Math.random() * 6) + 1;
         dicepic.style.display = 'block';
-        dicepic.src = 'dice-' + dice + '.png';
+        dicepic.src = 'dice-' + dice + '.jpg';
         if (dice > 1) {
             currentScore += dice;
             document.querySelector('#current-' + active).textContent = currentScore;
